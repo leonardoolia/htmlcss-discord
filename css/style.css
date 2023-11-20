@@ -165,12 +165,12 @@ div.channels-container>div {
 /* Fandom section*/
 
 .fandom {
-    background-color: dimgrey;
+    background-color: white;
     height: 800px;
 }
 
 div.fandom-container>div {
-    background-color: coral;
+    border: dotted;
 }
 
 .fandom-image {
