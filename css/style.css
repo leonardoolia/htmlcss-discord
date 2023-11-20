@@ -146,12 +146,12 @@ div.servers-container>div {
 /* Channels section */
 
 .channels {
-    background-color: blanchedalmond;
+    background-color: #F6F6F6;
     height: 800px;
 }
 
 div.channels-container>div {
-    background-color: darkslateblue;
+    border: dotted;
 }
 
 .channels-text {
