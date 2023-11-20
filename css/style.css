@@ -6,6 +6,11 @@
 }
 
 /* Generals */
+body {
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+}
+
 .general {
     margin: 0 auto;
     display: flex;
