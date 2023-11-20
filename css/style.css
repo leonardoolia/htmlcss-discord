@@ -1,0 +1,196 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Generals */
+.general {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+    height: 100%;
+}
+
+div.general>div {
+    height: 500px;
+    border: dotted;
+}
+
+/* HEADER */
+header {
+    background-color: blueviolet;
+    height: 200px;
+}
+
+div.header-container>div {
+    height: 50px;
+    background-color: brown;
+    flex-basis: 100px;
+    border: dotted;
+}
+
+.header-logo,
+.header-login {
+    flex-grow: 1;
+}
+
+.header-link {
+    flex-grow: 2;
+}
+
+
+/* MAIN */
+
+/* Spotlight section*/
+.spotlight {
+    background-color: darkslategray;
+    height: 800px;
+}
+
+
+div.spotlight-container>div {
+    background-color: blue;
+    flex-basis: 70%;
+}
+
+/* Servers section*/
+.servers {
+    background-color: dimgrey;
+    height: 1000px;
+}
+
+div.servers-container>div {
+    background-color: coral;
+}
+
+.servers-image {
+    flex-basis: 60%;
+}
+
+.servers-text {
+    flex-basis: 40%
+}
+
+/* Channels section */
+
+.channels {
+    background-color: blanchedalmond;
+    height: 1000px;
+}
+
+div.channels-container>div {
+    background-color: darkslateblue;
+}
+
+.channels-text {
+    flex-basis: 40%;
+}
+
+.channels-image {
+    flex-basis: 60%;
+}
+
+/* Fandom section*/
+
+.fandom {
+    background-color: dimgrey;
+    height: 1000px;
+}
+
+div.fandom-container>div {
+    background-color: coral;
+}
+
+.fandom-image {
+    flex-basis: 60%;
+}
+
+.fandom-text {
+    flex-basis: 40%;
+}
+
+/* Download section*/
+
+.download {
+    background-color: greenyellow;
+    height: 1000px;
+}
+
+.download-container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+    height: 100%;
+}
+
+div.download-container>div {
+    background-color: chocolate;
+    flex-basis: 100%;
+    height: 800px;
+    border: dotted;
+}
+
+/* FOOTER */
+
+/* Main footer */
+.main-footer {
+    background-color: darkslategrey;
+    height: 1000px;
+}
+
+.main-footer-container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+    height: 100%;
+    padding: 10px;
+    border-bottom: 2px solid white;
+}
+
+.main-footer-social {
+    flex-basis: 30%;
+    background-color: aquamarine;
+    height: 80%;
+}
+
+.main-footer-aboutus {
+    flex-basis: 70%;
+    background-color: darkcyan;
+    height: 80%;
+    display: flex;
+
+}
+
+div.main-footer-aboutus>div {
+    flex-basis: 25%;
+    border: dotted;
+}
+
+/* Secondary footer */
+.secondary-footer {
+    background-color: darkslategrey;
+    height: 200px;
+}
+
+.secondary-footer-container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 50%;
+    height: 100%;
+}
+
+div.secondary-footer-container>div {
+    background-color: azure;
+    height: 50px;
+    flex-basis: 10%
+}
