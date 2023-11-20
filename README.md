@@ -11,7 +11,7 @@ Creiamo delle classi riutilizzabili individuando gli elementi ricorrenti nel lay
 Non lavoriamo ancora sul responsive, quindi la nostra pagina non deve adattarsi a tutti i possibili viewport. Se comunque riusciamo almeno a lavorare già un po’ con unità relative senza però crearci nuove difficoltà, tanto meglio.
 Partite comunque sempre semplici, non focalizzandovi su parti/soluzioni complesse, semmai le affronterete in un secondo momento.
 Ricordate che potrebbe essere necessario un ritocco rispetto a quanto strutturato con la versione a blocchettoni! :occhiolino:
-Per le icone potete utilizzare [FontAwesome](chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=Font%20Awesome&pos=0&uri=https://fontawesome.com/), importandolo via [CDNJS](https://cdnjs.com).
+Per le icone potete utilizzare [FontAwesome](https://fontawesome.com), importandolo via [CDNJS](https://cdnjs.com).
 Vi ricordo che sono a disposizione su hotwell fino alle 13:00 e invece dalle 15:00 alle 18:00 avrete a supporto 
 @Marius Minia
  e 
