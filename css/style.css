@@ -35,7 +35,6 @@ button {
 
 div.general>div {
     height: 500px;
-    border: dotted;
 }
 
 
@@ -70,7 +69,6 @@ div.header-link>* {
 div.header-container>div {
     height: 50px;
     flex-basis: 100px;
-    border: dotted;
 }
 
 .header-logo,
@@ -89,11 +87,14 @@ div.header-container>div {
 .spotlight {
     background-image: url("../img/jumbo.png");
     background-size: cover;
-    height: 800px;
+    height: 500px;
+}
+
+.spotlight-content {
+    padding-top: 10%;
 }
 
 div.spotlight-container>div {
-    border: dotted;
     max-width: 70%;
 }
 
@@ -138,10 +139,6 @@ div.spotlight-content>.dark-button {
     height: 800px;
 }
 
-div.servers-container>div {
-    border: dotted;
-}
-
 .servers-image {
     flex-basis: 60%;
 }
@@ -158,10 +155,6 @@ div.servers-container>div {
     height: 800px;
 }
 
-div.channels-container>div {
-    border: dotted;
-}
-
 .channels-text {
     flex-basis: 40%;
     flex-grow: 1;
@@ -176,10 +169,6 @@ div.channels-container>div {
 .fandom {
     background-color: white;
     height: 800px;
-}
-
-div.fandom-container>div {
-    border: dotted;
 }
 
 .fandom-image {
@@ -208,10 +197,8 @@ div.fandom-container>div {
 }
 
 div.download-container>div {
-    border: dotted;
     flex-basis: 100%;
     height: 700px;
-    border: dotted;
     text-align: center;
 }
 
@@ -277,10 +264,8 @@ i {
 
 .main-footer-aboutus {
     flex-basis: 70%;
-
     height: 80%;
     display: flex;
-
 }
 
 footer ul {
@@ -316,7 +301,6 @@ div.main-footer-aboutus>div {
 }
 
 div.secondary-footer-container>div {
-
     height: 50px;
     flex-basis: 10%
 }
