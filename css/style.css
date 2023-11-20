@@ -280,6 +280,10 @@ li {
     margin-top: 5px;
 }
 
+li:first-child {
+    color: #8EA1E1;
+}
+
 div.main-footer-aboutus>div {
     flex-basis: 25%;
 }
