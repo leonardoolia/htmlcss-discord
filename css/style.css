@@ -24,6 +24,7 @@ body {
 button {
     border-radius: 20px;
     padding: 10px;
+    font-weight: bold;
 }
 
 /* Utils */
@@ -38,8 +39,11 @@ div.general>div {
 /* HEADER */
 header {
     background-color: #3161E0;
-    height: 200px;
+    height: 50px;
+
 }
+
+
 
 div.header-link>* {
     text-decoration: none;
@@ -47,17 +51,13 @@ div.header-link>* {
     font-weight: bold;
 }
 
-p {
-    margin-top: 10px;
-}
-
-
 
 div.header-container>div {
     height: 50px;
     background-color: brown;
     flex-basis: 100px;
     border: dotted;
+
 }
 
 .header-logo,
@@ -74,20 +74,59 @@ div.header-container>div {
 
 /* Spotlight section*/
 .spotlight {
-    background-color: darkslategray;
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
     height: 800px;
 }
 
-
 div.spotlight-container>div {
-    background-color: blue;
-    flex-basis: 70%;
+    border: dotted;
+    max-width: 60%;
+    /* flex-basis: 70%; */
+    ;
 }
+
+.spotlight-content>* {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+div.spotlight-content>h1 {
+    margin-bottom: 30px;
+    font-size: 2.5em;
+}
+
+div.spotlight-content>p {
+    font-size: small;
+    line-height: 1.5em;
+}
+
+div.spotlight-content>.light-button {
+    color: black;
+    margin-left: 100px;
+    ;
+}
+
+.arrow {
+    font-weight: bolder;
+    margin-right: 5px;
+}
+
+div.spotlight-content>.dark-button {
+    color: white;
+    background-color: #23272A;
+    margin-left: 10px;
+}
+
+
+
+
 
 /* Servers section*/
 .servers {
     background-color: dimgrey;
-    height: 1000px;
+    height: 800px;
 }
 
 div.servers-container>div {
@@ -106,7 +145,7 @@ div.servers-container>div {
 
 .channels {
     background-color: blanchedalmond;
-    height: 1000px;
+    height: 800px;
 }
 
 div.channels-container>div {
@@ -125,7 +164,7 @@ div.channels-container>div {
 
 .fandom {
     background-color: dimgrey;
-    height: 1000px;
+    height: 800px;
 }
 
 div.fandom-container>div {
@@ -144,7 +183,7 @@ div.fandom-container>div {
 
 .download {
     background-color: greenyellow;
-    height: 1000px;
+    height: 800px;
 }
 
 .download-container {
@@ -159,7 +198,7 @@ div.fandom-container>div {
 div.download-container>div {
     background-color: chocolate;
     flex-basis: 100%;
-    height: 800px;
+    height: 700px;
     border: dotted;
 }
 
