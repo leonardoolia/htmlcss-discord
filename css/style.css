@@ -19,11 +19,10 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 50%;
+    max-width: 60%;
     height: 100%;
 
 }
-
 
 
 button {
@@ -48,6 +47,15 @@ header {
 
 }
 
+div.header-container>div {
+    display: flex;
+    align-items: center;
+}
+
+.header-login {
+    justify-content: flex-end;
+}
+
 h1 {
     margin-bottom: 20px;
 }
@@ -61,10 +69,8 @@ div.header-link>* {
 
 div.header-container>div {
     height: 50px;
-    background-color: brown;
     flex-basis: 100px;
     border: dotted;
-
 }
 
 .header-logo,
@@ -88,9 +94,7 @@ div.header-container>div {
 
 div.spotlight-container>div {
     border: dotted;
-    max-width: 60%;
-    /* flex-basis: 70%; */
-    ;
+    max-width: 70%;
 }
 
 .spotlight-content>* {
@@ -111,7 +115,7 @@ div.spotlight-content>p {
 
 div.spotlight-content>.light-button {
     color: black;
-    margin-left: 100px;
+    margin-left: 120px;
     ;
 }
 
@@ -123,7 +127,7 @@ div.spotlight-content>.light-button {
 div.spotlight-content>.dark-button {
     color: white;
     background-color: #23272A;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 
@@ -143,7 +147,8 @@ div.servers-container>div {
 }
 
 .servers-text {
-    flex-basis: 40%
+    flex-basis: 40%;
+    flex-grow: 1;
 }
 
 /* Channels section */
@@ -159,6 +164,7 @@ div.channels-container>div {
 
 .channels-text {
     flex-basis: 40%;
+    flex-grow: 1;
 }
 
 .channels-image {
@@ -182,6 +188,7 @@ div.fandom-container>div {
 
 .fandom-text {
     flex-basis: 40%;
+    flex-grow: 1;
 }
 
 /* Download section*/
@@ -234,7 +241,7 @@ div.download-container>div {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 50%;
+    max-width: 60%;
     height: 40%;
     padding: 10px;
 
@@ -303,7 +310,7 @@ div.main-footer-aboutus>div {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 50%;
+    max-width: 60%;
     height: 50%;
     border-top: 2px solid white;
 }
