@@ -21,6 +21,8 @@ body {
 
 }
 
+
+
 button {
     border-radius: 20px;
     padding: 10px;
@@ -43,7 +45,9 @@ header {
 
 }
 
-
+h1 {
+    margin-bottom: 20px;
+}
 
 div.header-link>* {
     text-decoration: none;
@@ -121,16 +125,14 @@ div.spotlight-content>.dark-button {
 
 
 
-
-
 /* Servers section*/
 .servers {
-    background-color: dimgrey;
+    background-color: #fff;
     height: 800px;
 }
 
 div.servers-container>div {
-    background-color: coral;
+    border: dotted;
 }
 
 .servers-image {
